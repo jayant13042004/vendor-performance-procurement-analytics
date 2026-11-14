@@ -1,8 +1,5 @@
 # Vendor Performance Analysis
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AdilShamim8/Vendor-Performance-Analysis)
-![GitHub last commit](https://img.shields.io/github/last-commit/AdilShamim8/Vendor-Performance-Analysis)
-
 A comprehensive data analytics solution that leverages Python and Power BI to analyze vendor performance metrics, identify trends, and generate actionable insights for supply chain optimization and vendor management.
 
 ![Vendor Performance Preview](https://github.com/AdilShamim8/Vendor-Performance-Analysis/blob/main/Dashboard/vendor_performance.jpg)
@@ -18,8 +15,6 @@ A comprehensive data analytics solution that leverages Python and Power BI to an
 - [Analysis Workflow](#analysis-workflow)
 - [Dashboard](#dashboard)
 - [Insights](#insights)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -139,27 +134,6 @@ The analysis provides actionable insights, including:
 - Quality control issues and potential solutions
 - Seasonal variations in vendor performance
 - Vendor risk assessment and mitigation strategies
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-**⭐ Star this repo if you find it helpful!**
-
-Last Updated: November 2025
-
 ---
 
 Developed by [Adil Shamim](https://adilshamim.me/)
