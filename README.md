@@ -1,143 +1,28 @@
-# Vendor Performance Analysis
+# Vendor Performance & Procurement Analytics
 
-A comprehensive data analytics solution that leverages Python and Power BI to analyze vendor performance metrics, identify trends, and generate actionable insights for supply chain optimization and vendor management.
+Analysis of **1M+ vendor purchasing and sales records** to evaluate procurement performance and profitability, with a Power BI dashboard.
 
-![Vendor Performance Preview](https://github.com/AdilShamim8/Vendor-Performance-Analysis/blob/main/Dashboard/vendor_performance.jpg)
+## What it does
+- Cleaned and analyzed the data with Python and SQL
+- Calculated vendor-level sales, gross profit, and unsold inventory
+- Identified order-size and unit-price patterns for procurement analysis
+- Visualized the results in Power BI
 
-## Table of Contents
+## Key findings
+- Total sales: **$441.41M**
+- Gross profit: **$134.07M**
+- Capital tied up in unsold inventory: **$2.71M**
+- The top 10 vendors contributed **65.69%** of total purchases
 
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Key Features](#key-features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Analysis Workflow](#analysis-workflow)
-- [Dashboard](#dashboard)
-- [Insights](#insights)
+(Dashboard screenshot: `![dashboard](images/dashboard.png)`)
 
-## Overview
+## Tech stack
+Python, SQL, Pandas, Power BI
 
-This project provides an end-to-end solution for analyzing vendor performance data. It includes data processing scripts, exploratory data analysis notebooks, interactive Power BI dashboards, and comprehensive reports. The analysis helps businesses evaluate vendor reliability, cost-effectiveness, delivery performance, and quality metrics to make data-driven decisions for vendor management.
+## How to reproduce
+1. Download the data: [dataset name and link]
+2. Run `notebooks/[analysis].ipynb`
+3. Open `dashboard/[file].pbix` in Power BI Desktop
 
-## Project Structure
-
-```
-├── data/
-│   └── vendor_sales_summary.csv       # Main dataset with vendor performance metrics
-├── notebooks/
-│   ├── Exploratory Data Analysis.ipynb    # Initial data exploration and visualization
-│   └── Vendor Performance Analysis.ipynb  # Detailed vendor performance metrics analysis
-├── scripts/
-│   ├── get_vendor_summary.py          # Script to extract and process vendor summary data
-│   └── ingestion_db.py                # Database ingestion and processing script
-├── dashboard/
-│   └── vendor_performance.pbix        # Interactive Power BI dashboard
-├── reports/
-│   └── Vendor Performance Report.pdf  # Comprehensive analysis report
-└── README.md                          # Project documentation
-```
-
-## Key Features
-
-- **Comprehensive Vendor Analysis**: Evaluate vendor performance across multiple KPIs
-- **Interactive Dashboards**: Power BI visualizations for dynamic data exploration
-- **Automated Data Processing**: Python scripts for data collection and preparation
-- **In-depth Reporting**: Detailed analysis reports with actionable insights
-- **Trend Identification**: Time-series analysis to identify performance patterns
-- **Multi-dimensional Analysis**: Compare vendors across different metrics and categories
-
-## Technologies Used
-
-- **Python**: Data processing, analysis, and visualization
-- **Pandas**: Data manipulation and analysis
-- **Matplotlib/Seaborn**: Data visualization
-- **Power BI**: Interactive dashboard creation
-- **Jupyter Notebooks**: Exploratory data analysis
-- **SQL**: Database queries (via Python)
-
-## Setup and Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AdilShamim8/Vendor-Performance-Analysis.git
-   cd Vendor-Performance-Analysis
-   ```
-
-2. **Set up Python environment**
-   ```bash
-   # Create and activate a virtual environment (optional but recommended)
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   
-   # Install required packages
-   pip install pandas numpy matplotlib seaborn jupyter scikit-learn
-   ```
-
-3. **Open Power BI Dashboard**
-   - Install Power BI Desktop (if not already installed)
-   - Open `dashboard/vendor_performance.pbix`
-
-## Usage
-
-### Data Processing
-
-```bash
-# Run data extraction script
-python scripts/get_vendor_summary.py
-
-# Run database ingestion script
-python scripts/ingestion_db.py
-```
-
-### Exploratory Analysis
-
-1. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-2. Navigate to the `notebooks/` directory
-3. Open and run the notebooks to perform exploratory analysis
-
-### Power BI Dashboard
-
-The Power BI dashboard (`vendor_performance.pbix`) provides interactive visualizations of:
-- Vendor performance comparison
-- Delivery time analysis
-- Cost-efficiency metrics
-- Quality control statistics
-- Trend analysis over time
-
-## Analysis Workflow
-
-1. **Data Collection & Preparation**: Process raw vendor data using Python scripts
-2. **Exploratory Analysis**: Identify patterns and outliers using Jupyter notebooks
-3. **In-depth Analysis**: Calculate performance metrics and generate insights
-4. **Visualization**: Create interactive dashboards in Power BI
-5. **Reporting**: Generate comprehensive reports with findings and recommendations
-
-## Dashboard
-
-The Power BI dashboard features several interactive views:
-- **Vendor Overview**: Summary metrics for all vendors
-- **Performance Comparison**: Side-by-side vendor performance metrics
-- **Trend Analysis**: Time-series visualizations of key metrics
-- **Cost Analysis**: Price variations and cost-efficiency metrics
-- **Quality Metrics**: Defect rates, returns, and quality scores
-
-## Insights
-
-The analysis provides actionable insights, including:
-- Identification of top and underperforming vendors
-- Cost-saving opportunities through vendor optimization
-- Delivery reliability patterns and improvement areas
-- Quality control issues and potential solutions
-- Seasonal variations in vendor performance
-- Vendor risk assessment and mitigation strategies
----
-
-Developed by [Adil Shamim](https://adilshamim.me/)
-
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adilshamim8)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilshamim8)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/adil_shamim8)
+## Author
+Jayant Jagtap · [LinkedIn](https://www.linkedin.com/in/jayantjagtap/)
